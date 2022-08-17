@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+<ImageView
+    android:id="@+id/imageVIewRecord"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@color/colorPrimaryDark"
+    android:src="@drawable/addphoto"/>
+    <EditText
+        android:id="@+id/edtname"
+        android:hint="Name"
+        android:ems="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtseason"
+        android:hint="Season"
+        android:ems="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtepisode"
+        android:hint="Episode"
+        android:ems="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdate"
+        android:text="Update"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+</LinearLayout>
